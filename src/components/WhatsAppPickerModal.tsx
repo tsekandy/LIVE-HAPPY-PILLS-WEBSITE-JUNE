@@ -2,7 +2,7 @@ import React from 'react';
 import { X, MessageCircle, Phone } from 'lucide-react';
 
 const NUMBERS = [
-  { label: 'Main Line', number: '256706745309', display: '+256 706 745 309' },
+  { label: 'Main Line', number: '256709745309', display: '+256 709 745 309' },
   { label: 'Alternative', number: '256782504503', display: '+256 782 504 503' },
 ];
 

@@ -126,11 +126,11 @@ export default function Header({ onNavigate }: HeaderProps) {
                 {showCallNumbers && (
                   <div className="absolute top-full right-0 mt-2 w-52 bg-white rounded-xl shadow-lg border border-neutral-100 py-2 z-50 animate-fade-in">
                     <a
-                      href="tel:+256706745309"
+                      href="tel:+256709745309"
                       className="flex items-center gap-3 px-4 py-2.5 text-sm text-neutral-700 hover:text-primary-600 hover:bg-primary-50 transition-colors"
                     >
                       <Phone className="w-3.5 h-3.5 text-primary-500" />
-                      <span>+256 706 745 309</span>
+                      <span>+256 709 745 309</span>
                     </a>
                     <a
                       href="tel:+256782504503"
@@ -207,11 +207,11 @@ export default function Header({ onNavigate }: HeaderProps) {
               <div className="pt-4 border-t border-neutral-100 space-y-3">
                 <div className="grid grid-cols-2 gap-2">
                   <a
-                    href="tel:+256706745309"
+                    href="tel:+256709745309"
                     className="flex items-center justify-center gap-2 py-3 px-3 bg-neutral-100 text-neutral-700 font-semibold text-sm rounded-lg hover:bg-neutral-200 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    706 745 309
+                    709 745 309
                   </a>
                   <a
                     href="tel:+256782504503"
