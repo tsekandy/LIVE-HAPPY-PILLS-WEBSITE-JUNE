@@ -29,35 +29,35 @@
   }
 
   .section-padding {
-    @apply py-16 md:py-24;
+    @apply py-8 md:py-12;
   }
 
   .heading-xl {
-    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1];
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-[1.1];
   }
 
   .heading-lg {
-    @apply text-3xl md:text-4xl font-bold tracking-tight leading-[1.15];
+    @apply text-2xl md:text-3xl font-bold tracking-tight leading-[1.15];
   }
 
   .heading-md {
-    @apply text-2xl md:text-3xl font-semibold tracking-tight leading-[1.2];
+    @apply text-xl md:text-2xl font-semibold tracking-tight leading-[1.2];
   }
 
   .heading-sm {
-    @apply text-xl md:text-2xl font-semibold tracking-tight;
+    @apply text-lg md:text-xl font-semibold tracking-tight;
   }
 
   .text-body-lg {
-    @apply text-lg text-neutral-600 leading-relaxed;
+    @apply text-sm text-neutral-600 leading-relaxed;
   }
 
   .text-body {
-    @apply text-base text-neutral-600 leading-relaxed;
+    @apply text-sm text-neutral-600 leading-relaxed;
   }
 
   .text-body-sm {
-    @apply text-sm text-neutral-500 leading-relaxed;
+    @apply text-xs text-neutral-500 leading-relaxed;
   }
 
   .btn-primary {
@@ -104,5 +104,23 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .min-h-20 {
+    min-height: 5rem;
   }
 }

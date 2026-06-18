@@ -303,7 +303,7 @@ export default function ServicesPage({ onBack }: ServicesPageProps) {
               Contact Us on WhatsApp
             </button>
             <button
-              onClick={onBack}
+              onClick={() => window.open(`https://wa.me/256709745309?text=${encodeURIComponent('Hello Happy Pills Pharmacy! I would like to send my prescription for dispensing. Please let me know the next steps so I can share the prescription image or PDF with you. Thank you!')}`, '_blank')}
               className="btn-secondary border-white text-white hover:bg-white/10 hover:border-white"
             >
               <Upload className="w-5 h-5 mr-2" />

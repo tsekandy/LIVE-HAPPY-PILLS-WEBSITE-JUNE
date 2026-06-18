@@ -32,7 +32,7 @@ export default function ProductCarousel() {
     {
       id: 4,
       name: 'ProVen Probiotics',
-      image: 'https://iili.io/FOxDC3Q.webp',
+      image: 'https://iili.io/CoiTczu.png',
       description: 'More immunity from the Gut - advanced probiotics',
       category: 'Probiotics',
     },

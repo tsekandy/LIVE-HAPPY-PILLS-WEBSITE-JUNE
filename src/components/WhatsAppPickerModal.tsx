@@ -48,16 +48,16 @@ export default function WhatsAppPickerModal({ onClose, message, title = 'WhatsAp
               <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0 group-hover:bg-green-200 transition-colors">
                 <MessageCircle className="w-6 h-6 text-green-600" />
               </div>
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2">
-                  <p className="font-semibold text-neutral-900">{item.display}</p>
+              <div className="flex-1 overflow-hidden">
+                <p className="font-semibold text-neutral-900 whitespace-nowrap">{item.display}</p>
+                <div className="flex items-center gap-2 mt-0.5">
+                  <p className="text-xs text-neutral-500">{item.label}</p>
                   {i === 0 && (
                     <span className="text-[10px] font-bold bg-green-100 text-green-700 px-1.5 py-0.5 rounded">
                       DEFAULT
                     </span>
                   )}
                 </div>
-                <p className="text-xs text-neutral-500 mt-0.5">{item.label}</p>
               </div>
               <div className="flex items-center gap-1.5 text-green-600 text-sm font-medium flex-shrink-0">
                 <Phone className="w-4 h-4" />
