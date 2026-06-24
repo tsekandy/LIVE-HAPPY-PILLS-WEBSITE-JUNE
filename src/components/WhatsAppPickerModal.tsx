@@ -4,6 +4,7 @@ import { X, MessageCircle, Phone } from 'lucide-react';
 const NUMBERS = [
   { label: 'Main Line', number: '256709745309', display: '+256 709 745 309' },
   { label: 'Alternative', number: '256782504503', display: '+256 782 504 503' },
+  { label: 'Suppliers/Procurement', number: '256758443656', display: '+256 758 443 656' },
 ];
 
 interface Props {
