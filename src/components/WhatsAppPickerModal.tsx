@@ -1,4 +1,3 @@
-import React from 'react';
 import { X, Phone, Clock, Lightbulb, ShieldCheck, Pill, Users, Package } from 'lucide-react';
 
 const NUMBERS = [
@@ -103,7 +102,7 @@ export default function WhatsAppPickerModal({ onClose, message, title = 'WhatsAp
           <Clock className="w-5 h-5 text-green-700 flex-shrink-0" />
           <p className="text-sm text-neutral-700">
             <span className="font-semibold text-green-700">Operating Hours:</span>{' '}
-            Mon – Sat &nbsp;|&nbsp; 8:00 AM – 9:00 PM
+            Mon – Sun &nbsp;|&nbsp; 7:30 AM – 12:00 Midnight
           </p>
         </div>
 
